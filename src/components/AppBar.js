@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Kart from './Kart';
+
 
 const AppBar = () => {
   return (
@@ -16,7 +16,7 @@ const AppBar = () => {
           <Nav.Link href='#menu' className='fw-bold'>Menu</Nav.Link>
           <Nav.Link href="#fillpicker" className='fw-bold'>Delicious one</Nav.Link>
           <Nav.Link href="#contact" className='fw-bold'>Contact</Nav.Link>
-         <Kart/>
+         <i class="bi bi-cart4"></i>
         </Nav>
       </Navbar.Collapse>
     </Container>
