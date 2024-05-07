@@ -12,7 +12,7 @@ const Kart = () => {
   return (
     <>
       <Button variant="light" onClick={()=>setShow(!show)} className="me-2 position-relative" >
-      <i class="bi bi-bag-check-fill"></i>
+      <i class="bi bi-cart4"></i>
       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
     13
     <span class="visually-hidden">Cart Items</span>
