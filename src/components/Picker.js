@@ -28,8 +28,8 @@ const Picker = () => {
         </Row>
         <ToastContainer
           className="p-3 position-fixed top-0 end-0"
-          position={'top-end'}
-          style={{ zIndex: 1 }}
+          position={'top-end '}
+          style={{ zIndex: 10000 }}
         >
           <Toast onClose={()=>setShow(false)} show={show} delay={3000} autohide>
             <Toast.Header closeButton={false}>
